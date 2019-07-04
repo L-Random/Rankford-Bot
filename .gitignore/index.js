@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 const fs = require('fs');
 
-client.login("NTgyMjU1MzU2MDAxMTI0NDAz.XPRsmg.b5UQxHsVIVZODmX8FCYmJ26K3Gc"); //mon token
+client.login(procces.env.TOKEN); //mon token
 
 client.commands = new Discord.Collection();
 // pour faire une direction vers les autre dossier
